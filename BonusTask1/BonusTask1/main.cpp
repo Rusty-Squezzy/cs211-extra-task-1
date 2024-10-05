@@ -17,6 +17,12 @@ void main()
     assert(fabs(seconds_difference(1800.0, 1800.0) - 0.0) < DBL_EPSILON);
 
 
+    // Проверка функции double hours_difference(double time_1, double time_2)
+    assert(fabs(hours_difference(1800.0, 3600.0) - 0.5) < DBL_EPSILON);
+    assert(fabs(hours_difference(3600.0, 1800.0) - (-0.5)) < DBL_EPSILON);
+    assert(fabs(hours_difference(1800.0, 2160.0) - 0.1) < DBL_EPSILON);
+    assert(fabs(hours_difference(1800.0, 1800.0) - 0.0) < DBL_EPSILON);
+
 
     system("pause");
 }
