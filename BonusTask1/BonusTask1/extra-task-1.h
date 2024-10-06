@@ -25,3 +25,9 @@ double to_float_hours(int hours, int minutes, int seconds);
 * Precondition: hours >= 0
 */
 double to_24_hour_clock(double hours);
+
+
+/*
+* This function is used to determine the hours part of a time in seconds.
+*/
+int get_hours(int seconds);

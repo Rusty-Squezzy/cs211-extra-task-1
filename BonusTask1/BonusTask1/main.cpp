@@ -38,6 +38,10 @@ void main()
     assert(fabs(to_24_hour_clock(28.5) - 4.5) < DBL_EPSILON);
 
 
+    // Проверка функции: int get_hours(int seconds)
+    assert(get_hours(3800) == 1);
+
+
 
     system("pause");
 }

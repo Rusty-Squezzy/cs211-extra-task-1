@@ -31,3 +31,9 @@ double to_24_hour_clock(double hours)
     return fmod(hours, 24);
 }
 
+
+int get_hours(int seconds)
+{
+    return seconds / 3600;
+}
+
