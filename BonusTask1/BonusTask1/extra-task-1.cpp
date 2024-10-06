@@ -54,3 +54,9 @@ double time_to_utc(int utc_offset, double time)
 {
     return fmod((time - utc_offset) + 24, 24);
 }
+
+
+double time_from_utc(int utc_offset, double time)
+{
+    return fmod((time + utc_offset) + 24, 24);
+}
