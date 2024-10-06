@@ -17,3 +17,11 @@ double hours_difference(double time_1, double time_2);
 * Precondition: 0 <= minutes < 60  and  0 <= seconds < 60
 */
 double to_float_hours(int hours, int minutes, int seconds);
+
+
+/*
+* Hours is a number of hours since midnight. 
+* Return the hour as seen on a 24-hour clock.
+* Precondition: hours >= 0
+*/
+double to_24_hour_clock(double hours);
