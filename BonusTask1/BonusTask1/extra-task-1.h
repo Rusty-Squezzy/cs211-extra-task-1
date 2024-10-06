@@ -37,3 +37,8 @@ int get_hours(int seconds);
 * This function is used to determine the minutes part of a time in seconds.
 */
 int get_minutes(int seconds);
+
+/*
+* This function is used to determine the seconds part of a time in seconds.
+*/
+int get_seconds(int seconds);
