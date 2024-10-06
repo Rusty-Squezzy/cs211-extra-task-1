@@ -41,6 +41,9 @@ void main()
     // Проверка функции: int get_hours(int seconds)
     assert(get_hours(3800) == 1);
 
+    // Проверка функции: int get_minutes(int seconds)
+    assert(get_minutes(3800) == 3);
+
 
 
     system("pause");

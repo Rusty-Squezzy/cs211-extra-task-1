@@ -31,3 +31,9 @@ double to_24_hour_clock(double hours);
 * This function is used to determine the hours part of a time in seconds.
 */
 int get_hours(int seconds);
+
+
+/*
+* This function is used to determine the minutes part of a time in seconds.
+*/
+int get_minutes(int seconds);
